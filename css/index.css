@@ -1,0 +1,48 @@
+/* 
+ * --------------------------------------------------------
+ * Font Adjustments 
+ * --------------------------------------------------------
+ * */
+
+h1, h2, h3 {
+  font-family: Cormorant Garamond, sans-serif;
+  font-weight: 700;
+}
+
+p, a, figcation, footer {
+  font-family: Muli, serif;
+}
+
+p {
+  font-weight: 200;
+}
+
+a, figcation {
+  font-weight: 700;
+}
+
+span {
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.is-centerAligned {
+  text-align: center;
+}
+
+
+/* 
+ * --------------------------------------------------------
+ * Header 
+ * --------------------------------------------------------
+ * */
+
+header {
+  height: 56px;
+  display: flex;
+  justify-content: center;
+}
+
+.headerItems-right {
+  margin-left: auto;
+}

@@ -19,8 +19,9 @@ html {
  *    ========================================================================== */
 
 /**
- *  * Remove the margin in all browsers (opinionated).
- *   */
+ *  * (opinionated) Remove the margin in all browsers.
+ *   * Add side padding and adjust default font-size.
+ *    */
 
 body {
   margin: 0;
@@ -40,13 +41,28 @@ section {
 }
 
 /**
- *  * Correct the font size and margin on `h1` elements within `section` and
- *   * `article` contexts in Chrome, Firefox, and Safari.
+ *  * Correct the font size and margin on `h1`, `h2`, `h3`, and `p` elements within
+ *   * `section` and `article` contexts in Chrome, Firefox, and Safari.
  *    */
 
 h1 {
+  font-size: 4em;
+  margin: 0.375em 0;
+}
+
+h2 {
+  font-size: 3em;
+  margin: 0.333em 0;
+}
+
+h3 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 0.25em 0;
+}
+
+p {
+  font-size: 1.5em;
+  margin: 0;
 }
 
 /* Grouping content
