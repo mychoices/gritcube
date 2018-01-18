@@ -1,6 +1,20 @@
 /* 
  * --------------------------------------------------------
- * Font Adjustments 
+ * color 
+ * --------------------------------------------------------
+ * */
+
+.u-fontColor-white {
+  color: white;
+}
+
+.u-backgroundColor-black {
+  background-color: black;
+}
+
+/* 
+ * --------------------------------------------------------
+ * font adjustments 
  * --------------------------------------------------------
  * */
 
@@ -9,40 +23,133 @@ h1, h2, h3 {
   font-weight: 700;
 }
 
-p, a, figcation, footer {
+p, a, figcation, div, span {
   font-family: Muli, serif;
-}
-
-p {
-  font-weight: 200;
 }
 
 a, figcation {
   font-weight: 700;
 }
 
-span {
+p {
+  font-weight: 200;
+}
+
+a {
+  font-size: 1.25em;
+}
+
+div, span {
   font-weight: 400;
   font-size: 1em;
 }
 
-.is-centerAligned {
+.u-textAlign-center {
   text-align: center;
 }
 
+.u-textAlign-right {
+  text-align: right;
+}
 
 /* 
  * --------------------------------------------------------
- * Header 
+ * padding and margin
+ * --------------------------------------------------------
+ * */
+
+.u-paddingTopBottom-7em {
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+
+.u-paddingRightLeft-1em {
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.u-margin-0 { 
+  margin: 0;
+}
+
+.u-marginTop-3point5em {
+  margin-top: 3.5em;
+}
+
+.u-marginTop-7em {
+  margin-top: 7em;
+}
+
+.u-marginRightLeftAuto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.u-marginTop-auto {
+  margin-top: auto;
+}
+
+.u-marginBottom-auto {
+  margin-bottom: auto;
+}
+
+.u-marginLeft-auto {
+  margin-left: auto;
+}
+
+.u-marginLeft-2em {
+  margin-left: 2em;
+}
+
+/* 
+ * --------------------------------------------------------
+ * width 
+ * --------------------------------------------------------
+ * */
+
+.u-maxWidth-720px {
+  max-width: 720px
+}
+
+.u-width-320px {
+  width: 320px;
+}
+
+/* 
+ * --------------------------------------------------------
+ * flex 
+ * --------------------------------------------------------
+ * */
+
+.flexWrapper {
+  display: flex;
+}
+
+.flexWrapper.is-column {
+  flex-direction: column;
+}
+
+/* 
+ * --------------------------------------------------------
+ * header 
  * --------------------------------------------------------
  * */
 
 header {
-  height: 56px;
+  padding: 1em;
   display: flex;
-  justify-content: center;
 }
 
 .headerItems-right {
   margin-left: auto;
+}
+
+/* 
+ * --------------------------------------------------------
+ * footer 
+ * --------------------------------------------------------
+ * */
+
+footer {
+  padding: 1em;
 }
