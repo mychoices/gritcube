@@ -46,22 +46,23 @@ section {
  *    */
 
 h1 {
-  font-size: 4em;
-  margin: 0 0 0.375em 0;
+  font-size: 64px;
+  margin: 0 0 24px 0;
 }
 
 h2 {
-  font-size: 3em;
-  margin: 0 0 0.333em 0;
+  font-size: 48px;
+  margin: 0 0 16px 0;
 }
 
 h3 {
-  font-size: 2em;
-  margin: 0 0 0.25em 0;
+  font-size: 36px;
+  margin: 0 0 8px 0;
 }
 
 p {
-  font-size: 1.5em;
+  font-size: 24px;
+  line-height: 34px;
   margin: 0;
 }
 
