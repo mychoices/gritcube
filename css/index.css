@@ -23,20 +23,17 @@ h1, h2, h3 {
   font-weight: 700;
 }
 
-p, a, figcation, div, span {
+p, a, figcaption, div, span {
   font-family: Muli, serif;
 }
 
-a, figcation {
+a, figcaption {
   font-weight: 700;
+  font-size: 18px;
 }
 
 p {
   font-weight: 200;
-}
-
-a {
-  font-size: 18px;
 }
 
 div, span {
@@ -53,7 +50,7 @@ div, span {
 }
 
 @media screen and (max-width: 768px) {
-  a, div, span {
+  a, figcaption, div, span {
     font-size: 14px;
   }
 }
@@ -158,6 +155,28 @@ div, span {
   .max1170-u-maxWidth-480px {
     max-width: 480px;
   }
+}
+
+/* 
+ * --------------------------------------------------------
+ * position
+ * --------------------------------------------------------
+ * */
+
+.u-relative {
+  position: relative;
+}
+
+.u-absolute {
+  position: absolute;
+}
+
+.u-absolute.is-right-8px {
+  right: 8px;
+}
+
+.u-absolute.is-bottom-8px {
+  bottom: 16px;
 }
 
 /* 
