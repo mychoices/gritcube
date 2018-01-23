@@ -52,6 +52,12 @@ div, span {
   text-align: right;
 }
 
+@media screen and (max-width: 768px) {
+  a, div, span {
+    font-size: 14px;
+  }
+}
+
 /* 
  * --------------------------------------------------------
  * padding and margin
@@ -90,7 +96,12 @@ div, span {
 }
 
 .u-marginTop-base7x {
-  margin-top: 112px;;
+  margin-top: 112px;
+}
+
+.u-marginTopBottom-base {
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .u-marginRightLeft-auto {
@@ -116,6 +127,10 @@ div, span {
   width: 100%;
 }
 
+.u-maxWidth-320px {
+  max-width: 320px;
+}
+
 .u-maxWidth-400px {
   max-width: 400px
 }
@@ -131,6 +146,18 @@ div, span {
 .u-minMaxWidth-320px {
   max-width: 320px;
   min-width: 320px;
+}
+
+@media screen and (max-width: 768px) {
+  .max768-u-maxWidth-320px {
+    max-width: 320px;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .max1170-u-maxWidth-480px {
+    max-width: 480px;
+  }
 }
 
 /* 
