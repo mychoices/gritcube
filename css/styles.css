@@ -358,6 +358,10 @@ footer {
   background-color: rgba(0,0,0,0.05);
 }
 
+.u-backgroundColor-black-20 {
+  background-color: rgba(0,0,0,0.15);
+}
+
 .u-backgroundColor-brand-15 {
   background-color: rgba(194,87,0,0.15);
 }
