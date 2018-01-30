@@ -23,22 +23,44 @@ h1, h2, h3 {
   font-weight: 700;
 }
 
-p, a, figcaption, div, span {
+p, a, figcaption, div, span, input, button {
   font-family: Muli, serif;
 }
 
-a, figcaption {
+a, figcaption, label, button {
   font-weight: 700;
   font-size: 18px;
 }
 
-p {
-  font-weight: 200;
-}
-
-div, span {
+div, span, input {
   font-weight: 400;
   font-size: 18px;
+}
+
+input, button {
+  height: 32px;
+}
+
+h1 {
+  font-size: 64px;
+  margin: 0 0 24px 0;
+}
+
+h2 {
+  font-size: 48px;
+  margin: 0 0 16px 0;
+}
+
+h3 {
+  font-size: 36px;
+  margin: 0 0 8px 0;
+}
+
+p {
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 36px;
+  margin: 0;
 }
 
 .u-textAlign-center {
@@ -49,15 +71,40 @@ div, span {
   text-align: right;
 }
 
+.u-fontWeight-700 {
+  font-weight: 700;
+}
+
 @media screen and (max-width: 768px) {
-  a, figcaption, div, span {
+  a, figcaption, div, span, label, input {
     font-size: 14px;
+  }
+
+  h1 {
+    font-size: 48px;
+    margin: 0 0 16px 0;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin: 0 0 8px 0;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin: 0 0 8px 0;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
   }
 }
 
 /* 
  * --------------------------------------------------------
- * padding and margin
+ * padding
  * --------------------------------------------------------
  * */
 
@@ -70,6 +117,11 @@ div, span {
   padding-bottom: 16px;
 }
 
+.u-paddingTopBottom-base3x {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
 .u-paddingTopBottom-base7x {
   padding-top: 112px;
   padding-bottom: 112px;
@@ -80,6 +132,12 @@ div, span {
   padding-left: 16px;
 }
 
+/* 
+ * --------------------------------------------------------
+ * margin
+ * --------------------------------------------------------
+ * */
+
 .u-margin-0 { 
   margin: 0;
 }
@@ -88,8 +146,16 @@ div, span {
   margin: 16px;
 }
 
+.u-marginTop-base {
+  margin-top: 16px;
+}
+
 .u-marginTop-base3x {
   margin-top: 48px;
+}
+
+.u-marginTop-base4x {
+  margin-top: 64px;
 }
 
 .u-marginTop-base7x {
@@ -99,6 +165,11 @@ div, span {
 .u-marginTopBottom-base {
   margin-top: 16px;
   margin-bottom: 16px;
+}
+
+.u-marginRightLeft-base {
+  margin-right: 16px;
+  margin-left: 16px;
 }
 
 .u-marginRightLeft-auto {
@@ -112,6 +183,12 @@ div, span {
 
 .u-marginLeft-base2x {
   margin-left: 32px;
+}
+
+@media screen and (min-width: 944px) {
+  .min944-u-marginTop-base7x {
+    margin-top: 112px;
+  }
 }
 
 /* 
@@ -129,15 +206,31 @@ div, span {
 }
 
 .u-maxWidth-400px {
-  max-width: 400px
+  max-width: 400px;
+}
+
+.u-maxWidth-420px {
+  max-width: 420px;
+}
+
+.u-maxWidth-512px {
+  max-width: 512px;
 }
 
 .u-maxWidth-800px {
   max-width: 800px
 }
 
+.u-maxWidth-1000px {
+  max-width: 1000px
+}
+
 .u-maxWidth-1366px {
   max-width: 1366px
+}
+
+.u-minWidth-344px {
+  min-width: 344px;
 }
 
 .u-minMaxWidth-320px {
@@ -159,6 +252,15 @@ div, span {
 
 /* 
  * --------------------------------------------------------
+ * height
+ * --------------------------------------------------------
+ * */
+.u-height-fill {
+  height: 100%;
+}
+
+/* 
+ * --------------------------------------------------------
  * position
  * --------------------------------------------------------
  * */
@@ -171,12 +273,22 @@ div, span {
   position: absolute;
 }
 
+.u-absolute.is-top-24px {
+  top: 24px;
+}
+
 .u-absolute.is-right-8px {
   right: 8px;
 }
 
-.u-absolute.is-bottom-8px {
-  bottom: 16px;
+.u-absolute.is-right-16px {
+  right: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .u-absolute.max768-is-top-16px {
+    top: 16px;    
+  }
 }
 
 /* 
@@ -209,6 +321,10 @@ div, span {
   justify-content: space-around;
 }
 
+.u-alignSelf-center {
+  align-self: center;
+}
+
 /* 
  * --------------------------------------------------------
  * header 
@@ -232,4 +348,17 @@ header {
 
 footer {
   padding: 16px;
+}
+
+/* 
+ * --------------------------------------------------------
+ * color
+ * --------------------------------------------------------
+ * */
+.u-backgroundColor-black-5 {
+  background-color: rgba(0,0,0,0.05);
+}
+
+.u-backgroundColor-brand-15 {
+  background-color: rgba(194,87,0,0.15);
 }

@@ -40,55 +40,6 @@ section {
   display: block;
 }
 
-/**
- *  * Correct the font size and margin on `h1`, `h2`, `h3`, and `p` elements within
- *   * `section` and `article` contexts in Chrome, Firefox, and Safari.
- *    */
-
-h1 {
-  font-size: 64px;
-  margin: 0 0 24px 0;
-}
-
-h2 {
-  font-size: 48px;
-  margin: 0 0 16px 0;
-}
-
-h3 {
-  font-size: 36px;
-  margin: 0 0 8px 0;
-}
-
-p {
-  font-size: 24px;
-  line-height: 36px;
-  margin: 0;
-}
-
-@media screen and (max-width: 768px) {
-  h1 {
-    font-size: 48px;
-    margin: 0 0 16px 0;
-  }
-  
-  h2 {
-    font-size: 36px;
-    margin: 0 0 8px 0;
-  }
-  
-  h3 {
-    font-size: 24px;
-    margin: 0 0 8px 0;
-  }
-  
-  p {
-    font-size: 18px;
-    line-height: 24px;
-    margin: 0;
-  }
-}
-
 /* Grouping content
  *    ========================================================================== */
 
