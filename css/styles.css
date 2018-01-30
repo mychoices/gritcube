@@ -285,6 +285,10 @@ p {
   right: 16px;
 }
 
+.u-absolute.is-bottom-8px {
+  bottom: 8px;
+}
+
 @media screen and (max-width: 768px) {
   .u-absolute.max768-is-top-16px {
     top: 16px;    
@@ -333,7 +337,6 @@ p {
 
 header {
   padding: 8px 16px;
-  display: flex;
 }
 
 /* 
