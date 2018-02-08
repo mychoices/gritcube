@@ -204,6 +204,10 @@ p {
   margin-left: auto;
 }
 
+.u-marginLeft-base {
+  margin-left: 16px;
+}
+
 .u-marginLeft-base2x {
   margin-left: 32px;
 }
