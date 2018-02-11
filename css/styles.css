@@ -59,7 +59,7 @@ h1, h2, h3 {
   font-weight: 700;
 }
 
-p, a, figcaption, div, span, input, button {
+p, a, figcaption, div, span, input, textarea, button {
   font-family: Muli, serif;
 }
 
@@ -68,13 +68,17 @@ a, figcaption, label, button {
   font-size: 18px;
 }
 
-div, span, input {
+div, span, input, textarea {
   font-weight: 400;
   font-size: 18px;
 }
 
-input, button {
+input, textarea, button {
   height: 32px;
+}
+
+textarea {
+  resize: none;
 }
 
 h1 {
@@ -112,7 +116,7 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  a, figcaption, div, span, label, input {
+  a, figcaption, div, span, label, input, textarea, button {
     font-size: 14px;
   }
 
@@ -158,9 +162,9 @@ p {
   padding-bottom: 48px;
 }
 
-.u-paddingTopBottom-base7x {
-  padding-top: 112px;
-  padding-bottom: 112px;
+.u-paddingTopBottom-base21x {
+  padding-top: 336px;
+  padding-bottom: 336px;
 }
 
 .u-paddingRightLeft-base {
@@ -295,6 +299,11 @@ p {
  * height
  * --------------------------------------------------------
  * */
+
+.u-height-112px {
+  height: 112px;
+}
+
 .u-height-fill {
   height: 100%;
 }
@@ -371,19 +380,28 @@ p {
 
 /* 
  * --------------------------------------------------------
- * background color
+ * background
  * --------------------------------------------------------
  * */
+
 .u-backgroundColor-black-5 {
-  background-color: rgba(0,0,0,0.05);
+  background: rgba(0,0,0,0.05);
 }
 
 .u-backgroundColor-black-20 {
-  background-color: rgba(0,0,0,0.15);
+  background: rgba(0,0,0,0.15);
 }
 
 .u-backgroundColor-brand-15 {
-  background-color: rgba(194,87,0,0.15);
+  background: rgba(194,87,0,0.15);
+}
+
+.u-background-gradient-whiteBrand {
+  background: linear-gradient(white, rgba(194,87,0,0.10));
+}
+
+.u-background-darkGrey {
+  background: rgba(33,29,35,0.90);
 }
 
 /* 
@@ -396,6 +414,6 @@ p {
   color: white;
 }
 
-.u-backgroundColor-black {
-  background-color: black;
+.u-fontColor-brandDark {
+  color: rgba(194,87,0,1);
 }
