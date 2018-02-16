@@ -1,6 +1,57 @@
+body {
+  overflow-x: hidden;
+}
+
 /* 
  * --------------------------------------------------------
- * team-member
+ * banner
+ * --------------------------------------------------------
+ * */
+.banner-container {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 82px;
+}
+
+.banner-text {
+  position: relative;
+  z-index: 100;
+}
+
+.banner-blob {
+  position: absolute;
+  top: 0
+}
+
+.banner-blob.is-left {
+  left: -40px; 
+}
+
+.banner-blob.is-right {
+  right: -40px;
+}
+
+@media screen and (max-width: 1136px) {
+  .banner-blob.is-left {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .banner-blob.is-right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 662px) {
+  .banner-blob.is-left {
+    height: 100%;
+  }
+}
+
+/* 
+ * --------------------------------------------------------
+ * team member
  * --------------------------------------------------------
  * */
 .teamMember-container {
