@@ -96,3 +96,39 @@ body {
     bottom: 32px;
   }
 }
+
+/* 
+ * --------------------------------------------------------
+ * team
+ * --------------------------------------------------------
+ * */
+
+.team-container {
+  position: relative;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.team-sectionTitle, .team-description {
+  position: relative;
+  z-index: 100;
+}
+
+.team-backgroundBlob {
+  position: absolute;
+  top: 0;
+  left: -280px;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .team-backgroundBlob {
+    left: -140px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .team-backgroundBlob {
+    left: -280px;
+  }
+}
