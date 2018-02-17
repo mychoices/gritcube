@@ -31,6 +31,20 @@ header {
   padding: 8px 16px;
 }
 
+.logo-icon {
+  display: none;
+}
+
+@media screen and (max-width: 488px) {
+  .logo-full {
+    display: none;
+  }
+
+  .logo-icon {
+    display: inline;
+  }
+}
+
 /* 
  * --------------------------------------------------------
  * footer 
