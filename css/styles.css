@@ -52,6 +52,24 @@ figure {
 
 /* 
  * --------------------------------------------------------
+ * list adjustments 
+ * --------------------------------------------------------
+ * */
+ul, li {
+  list-style-type: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li:not(:first-child) {
+  margin-top: 16px;
+}
+
+/* 
+ * --------------------------------------------------------
  * font adjustments 
  * --------------------------------------------------------
  * */
@@ -61,7 +79,7 @@ h1, h2, h3 {
   font-weight: 700;
 }
 
-p, a, figcaption, div, span, input, textarea, button {
+p, a, figcaption, div, span, input, textarea, button, ul, li {
   font-family: Muli, serif;
 }
 
@@ -77,6 +95,11 @@ div, span, input, textarea {
 
 input, textarea, button {
   height: 32px;
+}
+
+ul, li {
+  font-weight: 200;
+  font-size: 18px;
 }
 
 textarea {
@@ -118,7 +141,7 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  a, figcaption, div, span, label, input, textarea, button {
+  a, figcaption, div, span, label, input, textarea, button, ul, li {
     font-size: 14px;
   }
 
@@ -386,23 +409,15 @@ p {
  * --------------------------------------------------------
  * */
 
-.u-backgroundColor-black-5 {
-  background: rgba(0,0,0,0.05);
+.u-background-brand-10 {
+  background: rgba(194,87,0,0.10);
 }
 
-.u-backgroundColor-black-20 {
-  background: rgba(0,0,0,0.15);
+.u-background-brandBlack-5 {
+  background: rgba(33,29,35,0.05);
 }
 
-.u-backgroundColor-brand-15 {
-  background: rgba(194,87,0,0.15);
-}
-
-.u-background-gradient-whiteBrand {
-  background: linear-gradient(white, rgba(194,87,0,0.10));
-}
-
-.u-background-darkGrey {
+.u-background-brandBlack-90 {
   background: rgba(33,29,35,0.90);
 }
 

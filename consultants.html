@@ -12,6 +12,7 @@
     <!-- Place <link> tags below -->
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/application.css">
     <link href="https://fonts.googleapis.com/css?family=Muli:200,400,700|Cormorant+Garamond:400,700" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="./assets/favicon.png">
 
@@ -44,14 +45,14 @@
         </div>
       </section>
 
-      <section class="u-marginTop-base7x u-paddingTopBottom-base3x u-backgroundColor-black-5">
+      <section class="u-marginTop-base7x u-paddingTopBottom-base3x">
         <div class="u-paddingRightLeft-base u-maxWidth-1000px u-marginRightLeft-auto">
           <h2 class="u-textAlign-center u-margin-0">Comments</h2>
           <div class="flexContainer is-justifyContent-spaceAround is-wrap">
             <div class="u-marginTop-base3x u-marginRightLeft-base u-minWidth-344px u-maxWidth-420px">
               <div class="u-relative">
                 <p>“Learning to work with a different culture  and in an emerging economy was a uniquely, amazing opportunity.”</p>
-                <div class="u-backgroundColor-brand-15 u-height-fill u-width-fill u-absolute is-top-24px is-right-16px max768-is-top-16px" aria-hidden="true"></div>
+                <div class="u-background-brand-10 u-height-fill u-width-fill u-absolute is-top-24px is-right-16px max768-is-top-16px" aria-hidden="true"></div>
               </div>
               <div class="u-fontWeight-700 u-marginTop-base">
                 Leslie Schneider | Duke University
@@ -61,7 +62,7 @@
             <div class="u-marginTop-base3x u-marginRightLeft-base u-minWidth-344px u-maxWidth-420px">
               <div class="u-relative">
                 <p>“Learning to work with a different culture  and in an emerging economy was a uniquely, amazing opportunity.”</p>
-                <div class="u-backgroundColor-brand-15 u-height-fill u-width-fill u-absolute is-top-24px is-right-16px max768-is-top-16px" aria-hidden="true"></div>
+                <div class="u-background-brand-10 u-height-fill u-width-fill u-absolute is-top-24px is-right-16px max768-is-top-16px" aria-hidden="true"></div>
               </div>
               <div class="u-fontWeight-700  u-marginTop-base">
                 Leslie Schneider | Duke University
@@ -71,7 +72,7 @@
             <div class="u-marginTop-base3x u-marginRightLeft-base u-minWidth-344px u-maxWidth-420px">
               <div class="u-relative">
                 <p>“Learning to work with a different culture  and in an emerging economy was a uniquely, amazing opportunity.”</p>
-                <div class="u-backgroundColor-brand-15 u-height-fill u-width-fill u-absolute is-top-24px is-right-16px max768-is-top-16px" aria-hidden="true"></div>
+                <div class="u-background-brand-10 u-height-fill u-width-fill u-absolute is-top-24px is-right-16px max768-is-top-16px" aria-hidden="true"></div>
               </div>
               <div class="u-fontWeight-700  u-marginTop-base">
                 Leslie Schneider | Duke University
@@ -81,7 +82,7 @@
             <div class="u-marginTop-base3x u-marginRightLeft-base u-minWidth-344px u-maxWidth-420px">
               <div class="u-relative">
                 <p>“Learning to work with a different culture  and in an emerging economy was a uniquely, amazing opportunity.”</p>
-                <div class="u-backgroundColor-brand-15 u-height-fill u-width-fill u-absolute is-top-24px is-right-16px max768-is-top-16px" aria-hidden="true"></div>
+                <div class="u-background-brand-10 u-height-fill u-width-fill u-absolute is-top-24px is-right-16px max768-is-top-16px" aria-hidden="true"></div>
               </div>
               <div class="u-fontWeight-700  u-marginTop-base">
                 Leslie Schneider | Duke University
@@ -93,11 +94,11 @@
 
       <section class="u-marginTop-base7x u-paddingRightLeft-base u-maxWidth-1000px u-marginRightLeft-auto">
         <h2 id="section-application" class="u-textAlign-center">Application</h2>
-        <div class="flexContainer is-justifyContent-spaceAround is-wrap">
-          <div class="u-marginTop-base3x u-marginRightLeft-base u-minWidth-344px u-maxWidth-420px u-width-fill">
+        <div class="flexContainer is-justifyContent-spaceAround is-wrap application-container">
+          <div class="u-marginTop-base3x u-marginRightLeft-base u-minWidth-344px u-maxWidth-420px u-width-fill application-description">
             <p>Requirements</p>
           </div>
-          <form id="application-consultant" class="u-marginTop-base3x u-marginRightLeft-base u-minWidth-344px u-maxWidth-420p">
+          <form id="application-consultant" class="u-marginTop-base3x u-marginRightLeft-base u-width-fill u-maxWidth-420px application-form">
             <div class="u-marginTop-base3x">
               <label for="name">Name</label><br/>
               <input type="text" id="name" required class="u-marginTop-base u-width-fill">
@@ -107,17 +108,32 @@
               <input type="text" id="name" required class="u-marginTop-base u-width-fill">
             </div>
             <div class="u-marginTop-base3x">
-              <label for="why-consulting">Why are you interested in consulting with Gritcube?</label><br/>
-              <input type="text" id="why-consulting" required class="u-marginTop-base u-width-fill">
+              <label for="why-consulting">Why are you interested in consulting with us?</label><br/>
+              <textarea id="why-consulting" required class="u-marginTop-base u-width-fill u-height-112px"></textarea>
             </div>
             <button type="submit" form="application-consultant" value="Submit" class="u-marginTop-base3x">Submit</button>
           </form>
+          <img src="./assets/application-backgroundBlob.png" alt="Abstract background shape" aria-hidden="true" class="application-description-background">
         </div>
       </section>
     </main>
 
-    <footer class="u-textAlign-right u-marginTop-base7x u-backgroundColor-black-20">
-      <div>Gritcube is a 501 (c)(3) · EIN: 81-2193237 · © 2016</div>
+    <footer class="u-marginTop-base7x u-background-brandBlack-5">
+      <div class="u-maxWidth-1366px u-width-fill u-marginRightLeft-auto">
+        <div class="u-marginTop-base3x u-marginRightLeft-auto u-maxWidth-420px u-width-fill flexContainer is-justifyContent-spaceAround">
+          <ul>
+            <li>Get to know us</li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="">SVP</a></li>
+          </ul>
+          <ul>
+            <li>Get Involved</li>
+            <li><a href="./consultants.html">Consultants</a></li>
+            <li><a href="./startups.html">Startups</a></li>
+          </ul>
+        </div>
+        <div class="u-textAlign-center u-marginTop-base3x">Gritcube is a 501 (c)(3) · EIN: 81-2193237 · © 2016</div>
+      </div>
     </footer>
   </body>
 </html>

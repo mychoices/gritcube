@@ -1,0 +1,33 @@
+/* 
+ * --------------------------------------------------------
+ * Application
+ * --------------------------------------------------------
+ * */
+.application-container {
+  position: relative;
+}
+
+.application-description, .application-form {
+  position: relative;
+  z-index: 100;
+}
+
+.application-description-background {
+  position: absolute;
+  top: 48px;
+  left: -120px;
+}
+
+@media screen and (max-width: 914px) {
+  .application-description-background {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 614px) {
+  .application-description-background {
+    width: 100%;
+  }
+}
