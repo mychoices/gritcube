@@ -11,6 +11,7 @@ html, body {
   position: relative;
   padding-top: 40px;
   padding-bottom: 82px;
+  margin-top: 112px;
 }
 
 .banner-text {
@@ -46,6 +47,12 @@ html, body {
 @media screen and (max-width: 662px) {
   .banner-blob.is-left {
     height: 100%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .banner-container {
+    margin-top: 48px;
   }
 }
 
