@@ -19,6 +19,7 @@ body {
   overflow-x: hidden;
   background: rgb(255,255,255);
   border: 4px solid rgba(33,29,35,1);
+  color: rgba(33,29,35,1);
 }
 
 /* 
@@ -108,6 +109,38 @@ a:active {
 
 /* 
  * --------------------------------------------------------
+ * form adjustments 
+ * --------------------------------------------------------
+ * */
+
+form {
+  width: 100%;
+}
+
+input, textarea {
+  height: 40px;
+  padding: 4px;
+  border: 1px solid rgba(33,29,35,0.3);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  height: 40px;
+  width: 100%;
+  color: rgba(33,29,35,0.0.9);
+  background: rgba(194,87,0,0.1);
+  border: 1px solid rgba(194,87,0,0.1);
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+/* 
+ * --------------------------------------------------------
  * font adjustments 
  * --------------------------------------------------------
  * */
@@ -115,13 +148,11 @@ a:active {
 h1, h2, h3 {
   font-family: Cormorant Garamond, sans-serif;
   font-weight: 700;
-  color: rgba(33,29,35,1);
 ;
 }
 
 p, a, figcaption, button, input, textarea, div, label, ul, li {
   font-family: Muli, serif;
-  color: rgba(33,29,35,1);
 }
 
 a, figcaption, button, input, textarea, div, label, ul, li {
@@ -138,14 +169,6 @@ input, textarea {
 
 div, label, ul, li {
   font-weight: 200;
-}
-
-input, textarea, button {
-  height: 32px;
-}
-
-textarea {
-  resize: none;
 }
 
 h1 {
@@ -311,6 +334,7 @@ p {
 .u-width-fill {
   width: 100%;
 }
+
 
 .u-maxWidth-320px {
   max-width: 320px;
