@@ -5,6 +5,7 @@
  * */
 
 html {
+  overflow-x: hidden;
   background: rgb(0,0,0);
 }
 
@@ -15,6 +16,7 @@ html {
  * */
 
 body {
+  overflow-x: hidden;
   background: rgb(255,255,255);
   border: 4px solid rgb(0,0,0);
 }
@@ -416,4 +418,26 @@ p {
 
 .u-fontColor-brandDark {
   color: rgba(194,87,0,1);
+}
+
+/* 
+ * --------------------------------------------------------
+ * getInvovled
+ * --------------------------------------------------------
+ * */
+
+.getInvolved-container {
+  position: relative;
+  padding-top: 112px;
+}
+
+.getInvolved-form-container, .getInvolved-links-container {
+  position: relative;
+  z-index: 100;
+}
+
+.getInvolved-backgroundBlob {
+  position: absolute;
+  top: 0;
+  left: -56px;
 }

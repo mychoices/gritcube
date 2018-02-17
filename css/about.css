@@ -1,7 +1,3 @@
-html, body {
-  overflow-x: hidden;
-}
-
 /* 
  * --------------------------------------------------------
  * banner
@@ -138,26 +134,4 @@ html, body {
   .team-backgroundBlob {
     left: -280px;
   }
-}
-
-/* 
- * --------------------------------------------------------
- * getInvovled
- * --------------------------------------------------------
- * */
-
-.getInvolved-container {
-  position: relative;
-  padding-top: 112px;
-}
-
-.getInvolved-form-container, .getInvolved-links-container {
-  position: relative;
-  z-index: 100;
-}
-
-.getInvolved-backgroundBlob {
-  position: absolute;
-  top: 0;
-  left: -56px;
 }
