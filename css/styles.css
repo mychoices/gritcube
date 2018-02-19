@@ -94,16 +94,15 @@ a {
   text-decoration: none;
 }
 
-a:visited {
+a:link, a:visited {
   color: rgba(33,29,35,1);
 }
 
-a:hover {
+a:hover, a:active {
   color: rgba(194,87,0,1);
 }
 
 a:active {
-  color: rgba(194,87,0,1);
   text-decoration: underline;
 }
 
