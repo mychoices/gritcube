@@ -151,7 +151,7 @@ h1, h2, h3 {
 }
 
 p, a, figcaption, button, input, textarea, div, label, ul, li {
-  font-family: Muli, serif;
+  font-family: Muli, sans-serif;
 }
 
 a, figcaption, button, input, textarea, div, label, ul, li {
